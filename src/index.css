@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(https://vorotavtomatika.od.ua/wp-content/uploads/layerslider/LayerSlider-5-responsive-demo-slider/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+#root {
+  position: relative;
+  background-color: #c8ced627;
+  margin: 0 auto; 
+  padding: 15px;
+  border: 1px solid #888;
+  width: 60%; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  top: 15vh;
+  border-radius: 20px;
+}
+
+

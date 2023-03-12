@@ -1,0 +1,58 @@
+.main {
+    width: 100%;
+}
+.main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 20px;
+}
+
+
+.main__content-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+
+  .input__holder {
+    width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+.input__holder .input__value,
+.select{ 
+      border:0;
+      border-bottom:1px solid #555;  
+      background:transparent;
+      width:100%;
+      padding: 8px 0 5px 0;
+      font-size:16px;
+    }
+.input__holder .input__value:focus{ 
+     border:none;	
+     outline:none;
+     border-bottom:1px solid #e74c3c;	
+    }
+
+.select__holder {
+    width: 30%;
+}
+.select {
+    padding: 8px 10px 5px;
+}
